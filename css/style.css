@@ -1,0 +1,344 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    --yellow: #face8d;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Chillax", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: white;
+	overflow-x: hidden;
+	font-weight: 500;
+	background: #000;
+}
+input,textarea,select{
+	font-family: "Chillax", Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+a{
+	color: var(--dark);
+}
+
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Chillax", Arial;
+	font-weight: 500;
+	color: var(--dark);
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Chillax';
+    src: url("../fonts/Chillax-Regular.woff2") format("woff2");
+    src: url("../fonts/Chillax-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chillax';
+    src: url("../fonts/Chillax-Medium.woff2") format("woff2");
+    src: url("../fonts/Chillax-Medium.woff") format("woff"),;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chillax';
+    src: url("../fonts/Chillax-SemiBold.woff2") format("woff2");
+    src: url("../fonts/Chillax-Semibold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chillax';
+    src: url("../fonts/Chillax-Bold.woff2") format("woff2");
+    src: url("../fonts/Chillax-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bitter-Rose';
+    src: url("../fonts/Bitter-Rose.woff2") format("woff2");
+    src: url("../fonts/Bitter-Rose.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+#home{
+	background-image: url(../images/home-bg.webp);
+	height:100vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+#home section.wrapper header h1 a img{
+ height:80px;
+ margin-left: 45%;
+ margin-top: 25px;
+}
+#home section.wrapper section.middle{
+  text-align: center;
+	margin-top:8%;
+}
+#home section.wrapper section.middle h1{
+	color: #face8d;
+	font-size: 80px;
+	margin-bottom:8px;
+	font-family: 'Bitter-Rose';
+    src: url("../fonts/Bitter-Rose.woff2") format("woff2");
+    src: url("../fonts/Bitter-Rose.woff") format("woff");
+}
+#home section.wrapper section.middle h2{
+	font-size: 120px;
+	font-weight: 600;
+	margin-bottom:8px;
+}
+footer{
+	position: fixed;
+	bottom: 10%;
+	width: 100%;
+}
+footer ul{
+	display: flex;
+	justify-content: center;
+	margin-left:5%;
+	font-size: 20px;
+	color: #000;
+	background-color: #fff;
+	width: 40%;
+	margin: 0 auto;
+	border-radius: 25px;
+	
+}
+footer ul li{
+	margin-right: px;
+	width: 24%;
+	text-align: center;
+	padding: 15px 8px 15px 8px;
+}
+footer ul li :last-child{
+	margin-right:0;
+}
+footer ul li :hover{
+	background-color: #000;
+	color: #fff;
+	border-radius: 12px;
+	padding: 4px 7px;
+}
+#home section.wrapper section.middle p{
+	font-size: 18px;
+	color: #e6d6d6;
+	margin-bottom: 10px;
+	position: absolute;
+	margin-left: 28%;
+	margin-top: -30px;
+	margin-bottom: 15px;
+}
+#menu{
+	display: flex;
+
+	
+	
+		
+}
+#menu div.left{
+	background-image: url(../images/menu-bg.webp);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	width: 50%;
+	
+}
+
+#menu div.left img{
+	height: 90px;
+	margin-left:3%;
+	margin-top: px;
+
+}
+#menu div.left header {
+	text-align: center;
+	margin-top: 10px;
+}
+#menu div.left  h1{
+	font-family: 'Bitter-Rose';
+    src: url("../fonts/Bitter-Rose.woff2") format("woff2");
+    src: url("../fonts/Bitter-Rose.woff") format("woff");
+	color: #face8d;
+	font-size: 100px;
+	text-align: center;
+	margin-top: 40px;
+}
+#menu div.left h2{
+	margin-top: 20px;
+	font-size: 120px;
+	font-weight: 600;
+	text-align: center;
+}
+#menu div.right{
+	width: 50%;
+	height: 100vh;
+	overflow-y: scroll;
+}
+#menu div.right header{
+	
+	height: 80px;
+}
+#menu div.right header ul{
+	display: flex;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+	
+
+}
+#menu div.right header ul li{
+	margin-right: 60px;
+	color: #face8d;
+
+}
+#menu div.right header div.container{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: px;
+	padding: 20px;
+	margin-left: 40px;
+	margin-top: 30px;
+	
+}
+#menu div.right header h1{
+	font-family: 'Bitter-Rose';
+    src: url("../fonts/Bitter-Rose.woff2") format("woff2");
+    src: url("../fonts/Bitter-Rose.woff") format("woff");
+	color: #face8d;
+	font-size: 60px;
+	margin-left: 40px;
+    margin-top: 40px;
+}
+#menu div.right header div.container img{
+	height: 60px;
+	margin-right: 20px;
+	border-radius: 6px;
+}
+#menu div.right header div.container h2{
+	font-size: 20px;
+	font-weight: 200;
+	margin-left:3%;
+	
+
+}
+#menu div.right header div.container h3{
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+footer ul{
+	display: flex;
+	justify-content: center;
+	margin-left:5%;
+	font-size: 20px;
+	color: #000;
+	background-color: #fff;
+	width: 40%;
+	margin: 0 auto;
+	border-radius: 25px;
+	
+}
+footer ul li{
+	margin-right: px;
+	width: 24%;
+	text-align: center;
+	padding: 15px 8px 15px 8px;
+}
+footer ul li :last-child{
+	margin-right:0;
+}
+footer ul li :hover{
+	background-color: #000;
+	color: #fff;
+	border-radius: 12px;
+	padding: 4px 7px;
+}
+
+#class{
+ height: 100vh;
+ display: flex;
+ overflow: hidden;
+}
+#class div.item{
+	flex: 0 0 33%;
+	height: 100vh;
+	text-align: center;
+	background-blend-mode: darken;
+
+}
+#class div.item h1{
+	font-size: 60px;
+	font-family: 'Bitter-Rose';
+    src: url("../fonts/Bitter-Rose.woff2") format("woff2");
+    src: url("../fonts/Bitter-Rose.woff") format("woff");
+	color: #face8d;
+	margin-top: 35vh;
+}
+#class div.item h2{
+	font-size: 50px;
+	font-weight: 500;
+	margin-top: 30px;
+}
+#class div.item1{
+	background-image: url(../images/class1.webp);
+	background-size: cover;
+	background-color: rgba(0,0,0,.6);
+}
+#class div.item2{
+	background-image: url(../images/class2.webp);
+	background-size: cover;
+	background-color: rgba(0,0,0,.6);
+
+}
+#class div.item3{
+	background-image: url(../images/class3.webp);
+	background-size: cover;
+	background-color: rgba(0,0,0,.6);
+
+
+}
+
+#class div.item4{
+	background-image: url(../images/class4.webp);
+	background-size: cover;
+	background-color: rgba(0,0,0,.6);
+
+
+}
+
+#class div.item5{
+	background-image: url(../images/class5.webp);
+	background-size: cover;
+	background-color: rgba(0,0,0,.6);
+
+
+} 
+
